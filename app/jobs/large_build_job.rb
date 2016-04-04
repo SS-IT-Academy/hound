@@ -1,5 +1,5 @@
 class LargeBuildJob < ApplicationJob
   include Buildable
 
-  queue_as :low
+  queue_as :medium
 end
